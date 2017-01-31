@@ -64,7 +64,7 @@ public class ActivatorService {
 
         String businfo = "";
 
-        int[] lines = {33, 42, 45, 51, 54, 60, 63};
+        int[] lines = {33, 42, 45, 51, 54, 60, 63, 69, 72, 78, 81, 87, 90, 96, 99, 105, 108, 114, 117, 123, 126};
         for (int i: lines){
             String busstop = (webpage.get(i));
             busstop = busstop.trim();
